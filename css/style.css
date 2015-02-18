@@ -1,3 +1,14 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -11,33 +22,63 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+/* End of Reset */
+
+/* Navigation Section */
+.top-navigation{
+	background-color: #fff;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+.top-navigation > .content{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.top-navigation .logo{
+	height: 70px;
+}
+
+.top-navigation .links{
+	float: right;
+	margin-top: 25px;
+}
+
+.top-navigation .links .active{
+	color:  #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links li{
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-left: 15px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li:hover{
+	cursor: pointer;
+	color: #333333;
 }
