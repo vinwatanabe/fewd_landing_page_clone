@@ -51,11 +51,11 @@ body{
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
+	height: 70px;
 }
 
-.top-navigation .content{
+.content{
 	width: 970px;
-	height: 70px;
 	margin: 0 auto;
 	padding: 0px 15px;
 }
@@ -100,11 +100,11 @@ body{
 	overflow: auto;
 }
 
-.introduction .content{
-	width: 970px;
-	margin: 0 auto;
-	padding: 0px 15px;
+.introduction h1, h3{
 	color: #fff;
+}
+
+.introduction .content{
 	text-align: center;
 }
 
@@ -121,6 +121,7 @@ body{
 }
 
 .big-button{
+	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 1.125rem;
@@ -130,7 +131,6 @@ body{
 	padding: 16px 26px;
 	line-height: 1.33;
 	background-color: #f15a29;
-	color: #fff;
 	width: 9.688rem;
 }
 
