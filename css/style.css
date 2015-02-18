@@ -122,7 +122,6 @@ body{
 
 .big-button{
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 1.125rem;
 	text-shadow: none;
@@ -137,4 +136,16 @@ body{
 .big-button:hover{
 	background-color: #d9400e;
 	cursor: pointer;
+}
+
+.cases .content{
+	text-align: center;
+	margin-top: 7.875rem;
+	color: #1d1e21;
+}
+
+.cases h2{
+	font-size: 2.75rem;
+	font-weight: 300;
+	margin-bottom: 3.125rem;
 }
