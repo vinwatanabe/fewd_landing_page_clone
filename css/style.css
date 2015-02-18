@@ -149,3 +149,16 @@ body{
 	font-weight: 300;
 	margin-bottom: 3.125rem;
 }
+
+.cases .devices{
+	width: 33.3333%;
+	float: left;
+	display: inline-block;
+}
+
+.cases .devices h3{
+	font-size: 1.563rem;
+	font-weight: 400;
+	margin: 2.5rem 0 1.875rem;
+	color: #1d1e21;
+}
