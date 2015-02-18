@@ -152,8 +152,7 @@ body{
 }
 
 .cases .devices{
-	width: 33.3333%;
-	float: left;
+	width: 33%;
 	display: inline-block;
 }
 
@@ -162,4 +161,9 @@ body{
 	font-weight: 400;
 	margin: 2.5rem 0 1.875rem;
 	color: #1d1e21;
+}
+
+.footer-bar{
+	border: 1px solid #eaebec;
+	margin: 1.313rem 0;
 }
