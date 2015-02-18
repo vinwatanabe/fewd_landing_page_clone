@@ -50,6 +50,7 @@ body{
 .top-navigation{
 	background-color: #fff;
 	position: fixed;
+	border-bottom: 2px solid #eaebec;
 	width: 100%;
 	height: 70px;
 	z-index: 9999;
