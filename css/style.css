@@ -144,6 +144,7 @@ body{
 	text-align: center;
 	margin-top: 7.875rem;
 	color: #1d1e21;
+	padding-bottom: 5rem;
 }
 
 .cases h2{
@@ -167,4 +168,38 @@ body{
 .footer-bar{
 	border: 1px solid #eaebec;
 	margin: 1.313rem 0;
+}
+
+footer{
+	text-align: center;
+	padding-bottom: 9.375rem;
+}
+
+.icons li{
+	border: 1px solid #eaebec;
+	border-radius: 50%;
+	display: inline-block;
+	height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+	font-family: 'FontAwesome';
+	margin: 1.25rem 5px;
+}
+
+.icons .twitter{
+	color: #55acee;
+}
+
+.icons .facebook{
+	color: #4c66a4;
+}
+
+.icons .instagram{
+	color: #3f729b;
+}
+
+footer .copyright{
+	color: #838994;
+	font-size: 0.9em;
+	font-weight: 300;
 }
