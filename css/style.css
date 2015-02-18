@@ -184,6 +184,7 @@ footer{
 	text-align: center;
 	font-family: 'FontAwesome';
 	margin: 1.25rem 5px;
+	padding: 0.625rem 0;
 }
 
 .icons .twitter{
