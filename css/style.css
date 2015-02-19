@@ -176,7 +176,7 @@ footer{
 }
 
 .icons li{
-	border: 1px solid #eaebec;
+	border: 1px solid LightGrey;
 	border-radius: 50%;
 	display: inline-block;
 	height: 2.5rem;
@@ -185,6 +185,10 @@ footer{
 	font-family: 'FontAwesome';
 	margin: 1.25rem 5px;
 	padding: 0.625rem 0;
+}
+
+.icons li:hover{
+	border: 1px solid #838994;
 }
 
 .icons .twitter{
