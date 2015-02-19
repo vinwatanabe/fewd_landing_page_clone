@@ -191,12 +191,24 @@ footer{
 	color: #55acee;
 }
 
+.icons .twitter:hover{
+	color: #838994;
+}
+
 .icons .facebook{
 	color: #4c66a4;
 }
 
+.icons .facebook:hover{
+	color: #838994;
+}
+
 .icons .instagram{
 	color: #3f729b;
+}
+
+.icons .instagram:hover{
+	color: #838994;
 }
 
 footer .copyright{
